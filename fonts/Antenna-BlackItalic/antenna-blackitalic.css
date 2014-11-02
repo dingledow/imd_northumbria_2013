@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'AntennaBlackItalic';
+    src: url('antenna-blackitalic.eot');
+    src: url('antenna-blackitalic.eot') format('embedded-opentype'),
+         url('antenna-blackitalic.woff') format('woff'),
+         url('antenna-blackitalic.ttf') format('truetype'),
+         url('antenna-blackitalic.svg#AntennaBlackItalic') format('svg');
+}

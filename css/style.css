@@ -1,0 +1,187 @@
+ul,li,a,img,section{
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-color: #FFF;
+	margin: 0;
+	padding: 0;
+	margin-left:10px;
+}
+
+header {
+	width: 220px;
+	height: 100%;
+	float:left;
+	margin: 20px 10px 0 10px;
+	position:fixed;
+}
+
+header div.logo img{
+	width: 220px;
+	height:220px;
+}
+
+
+section#work{
+	float:left;
+	margin:0;
+	margin-top:30px;
+	padding:0;
+	margin-left:240px;
+}
+
+section#work ul {
+	list-style-type: none;
+	padding:0;
+	margin:0;
+	margin-top:20px;
+}
+
+section#work ul li{
+	display: inline;
+	margin:0;
+	width:220px;
+	height:220px;
+}
+
+section#work ul li a img{
+	width:220px;
+	height:220px;
+	margin:10px 10px 10px 10px;
+}
+
+#filters{
+	min-height:50px;
+	background-color: rgba(255,255,255,0.85);
+	margin-left:10px;
+	padding-top:10px;
+	margin-top:-30px;
+	position:fixed;
+}
+
+#filters a{
+		font-family:"Din Display Pro Thin", Verdana, sans-serif; font-size-adjust:0.5; font-weight:bold; font-style:normal;
+		padding: 6px; color: #fff; text-decoration: none; line-height: 15px; margin-top:5px; display: inline-block;
+}
+
+#filters a.all{
+	background-color: black;
+}
+
+#filters a.webdes{
+	background-color: #48b7ae;
+}
+
+#filters a.service{
+	background-color: #bf2929;
+}
+
+#filters a.physical{
+	background-color: #2da7e6;
+}
+
+#filters a.responsive{
+	background-color: #ffc000;
+}
+
+#filters a.data{
+	background-color: #8749b5;
+}
+
+#filters a.interactive{
+	background-color: #80c72d;
+}
+
+section#profile{
+	float:left;
+	margin:0;
+	margin-top:47px;
+	padding:0;
+	margin-left:240px;
+	background-color: #f0f0f0;
+	padding:5px 20px 20px 35px;
+	width:960px;
+}
+
+#profile h1{
+	font-family:"Din Display Pro Thin", Verdana, sans-serif; font-size-adjust:0.5; font-weight:bold; font-style:normal;
+		color: #000;
+}
+
+#profile p{
+	font-family: "proxima-nova";
+}
+
+#final-project{
+	float:left;
+	clear:both;
+	margin-left: 240px;
+	margin-top:20px;
+	padding-top: 0px;
+	border-top:1px solid #f0f0f0;
+	padding-left:0px;
+	width: 1010px;
+}
+
+#final-project h1{
+	font-family:"Din Display Pro Thin", Verdana, sans-serif;
+	font-size: 2.5em;
+}
+
+#final-project p{
+	font-family: "proxima-nova";
+	line-height: 24px;
+	width:640px;
+}
+
+#final-project{
+	margin-bottom:50px;
+}
+
+@media screen and (max-device-width: 540px), (max-width: 540px) {
+	
+	body{
+		margin:0;
+	}
+	
+	header{
+		width:100%;
+		height: 220px;
+		position:relative;
+		margin:0;
+		padding:20px 0 10px 0;
+	}
+	
+	header div.logo img{
+		display:block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	section#work{
+		margin:0;
+	}
+	
+	section#work ul{
+		margin:5px; 2.9% 20px 2.9%;
+	}	
+	
+	section#work ul li{
+		display: inline;
+		margin:0 1% 0 3%;
+	}
+	
+	section#work ul li a{
+		margin:0;
+	}
+	
+	section#work ul li a img{
+		margin: 25px 0 0 0;
+		width:45%;
+		height:auto;
+	}	
+	
+	
+}

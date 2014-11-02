@@ -1,0 +1,118 @@
+ul,li,a,img,section,div,body{
+	margin:0;
+	padding:0;
+}
+
+div#preload { display: none; }
+
+body{
+	background: url('../images/home.jpg') no-repeat center bottom fixed;
+	background-size: cover;
+}
+
+@font-face {
+	font-family: 'AntennaBlackItalic';
+	src: url('http://imdnorthumbria.co.uk/fonts/Antenna-BlackItalic/antenna-blackitalic.eot');
+    src: url('http://imdnorthumbria.co.uk/fonts/Antenna-BlackItalic/antenna-blackitalic.eot') format('embedded-opentype'),
+         url('http://imdnorthumbria.co.uk/fonts/Antenna-BlackItalic/antenna-blackitalic.woff') format('woff'),
+         url('http://imdnorthumbria.co.uk/fonts/Antenna-BlackItalic/antenna-blackitalic.ttf') format('truetype'),
+         url('http://imdnorthumbria.co.uk/fonts/Antenna-BlackItalic/antenna-blackitalic.svg') format('svg');
+}
+
+#welcome h1{
+	font-family: 'AntennaBlackItalic';
+	color:#fff;
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 0px 1px 3px rgba(0,0,0,0.15);
+}
+
+#welcome h2{
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	color:#fff;
+    text-align: center;
+    font-size: 1.5em;
+    text-shadow: 0px 1px 3px rgba(0,0,0,0.15);
+    width:300px;
+    margin: 0 auto;
+}
+
+#welcome{
+	margin-top: 15%;
+}
+
+#mc_embed_signup{
+	background-color: rgba(0,0,0,0.1);
+	width:533px;
+	height:120px;
+	margin: 0 auto;
+	-moz-border-radius: 22px;
+    -webkit-border-radius: 22px;
+    -khtml-border-radius: 22px;
+    border-radius: 22px;
+    z-index: 8;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.1);
+    border:1px solid rgba(0,0,0,0.1);
+}
+
+#mce-EMAIL{
+	border: none;
+	height: 85px;
+	width: 480px;
+	margin:15px;
+	-moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -khtml-border-radius: 15px;
+    border-radius: 15px;
+    z-index: 9;
+    background-color: rgba(255,255,255,0.8);
+    padding-left:20px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 1.2em;
+    box-shadow:inset 0 0 20px rgba(255,255,255,0.9);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    color: #5c5c5c;
+}
+
+input:focus{
+	outline: none;
+}
+
+.button {
+	background-image: url('../images/btn.png');
+	background-color: transparent;
+	border: none;
+	width: 236px;
+	height: 81px;
+	background-repeat: no-repeat;
+	background-size: 75%;
+	position: relative;
+	top:-87px;
+	left:325px;
+	z-index: 999;
+}
+
+.button:hover{
+	background-image: url('../images/btn-over.png');
+}
+
+.button:active{
+	background-image: url('../images/btn-down.png');
+}
+
+@media screen and (max-device-width: 540px), (max-width: 540px) {
+
+	#welcome h1{
+	font-family: 'AntennaBlackItalic';
+	color:#fff;
+    text-align: center;
+    font-size: 5.2em;
+    }
+
+	#welcome{
+	margin-top: 25%;
+	}
+
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="description" content="">
+<title></title>
+
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+
+<!--[if IE]> 
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]--> 
+<!--[if lte IE 7]> <script src="js/IE8.js" type="text/javascript"></script><![endif]--> 
+<!--[if lt IE 7]>
+<link rel="stylesheet" type="text/css" media="all" href="css/ie6.css"/><![endif]--> 
+
+<script type="text/javascript">
+        function ani(){
+            document.getElementById('filters').className ='.filters';
+        }
+</script>
+
+<script type="text/javascript" src="//use.typekit.net/vhn4gus.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+<script type="text/javascript">
+
+    function toggleVisibility(selectedTab) {
+        
+         var content = document.getElementsByName('content');
+         
+         for(var i=0; i<content.length; i++) {
+              if(content[i].className == selectedTab) {
+                    content[i].style.display = 'inline';
+              } else if(content[i].id == selectedTab) {
+              		content[i].style.display = 'inline';
+              } else if (selectedTab == '7'){
+              		content[i].style.display = 'inline';
+              } else {
+                    content[i].style.display = 'none';
+              }
+         }
+    
+    }
+</script>
+
+<script type="text/javascript">
+WebFontConfig = { fontdeck: { id: '34450' } };
+
+(function() {
+  var wf = document.createElement('script');
+  wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+  '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+  wf.type = 'text/javascript';
+  wf.async = 'true';
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(wf, s);
+})();
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40666531-1', 'imdnorthumbria.co.uk');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body>
+
+<header>
+
+	<div class="logo"><a href="http://imdnorthumbria.co.uk" class="logo-a"><img src="../images/logo2.png" class="logo-img"/></a></div>
+
+</header>
+
+<section id="profile">
+	<h1>Jonathan Bishop</h1>
+	<p>info@jonathanbishop.co</p>
+	<p></p>
+</section>
+
+<section id="final-project">
+<h1>SurfCast</h1><img src="../images/profile-work/bishop.jpg" alt="bishop" width="800" height="auto">
+<p>The concept behind this particular project was to explore more imaginative and simplistic means through which to deliver raw information. In this case it was my interest in surfing that was the driving force behind this project, and ultimately what led me to create a device that delivered a real-time surf report in a way that didn’t require a need for the user to digest a whole bunch of numbers, nor one that required a users direct engagement in order to function. SurfCast is such a device in that it is designed to deliver a live surf report from a Twitter feed in real-time. SurfCast uses a live internet connection to link with Twitter via an Arduino Uno coupled with a Wifi Shield and the data it receives is then displayed on an 08 X 32 LED dot matrix. All this is housed within a pine frame with a bare finish, allowing it to sit stylishly upon an end table or desk, and thus maintaining a natural aesthetic.</p>
+</section>
+
+<script type="text/javascript" src="../js/retina/retina.js"></script>
+
+</body>
+
+</html>
